@@ -1,26 +1,23 @@
 {
-  "name": "collegeapps",
-  "version": "0.1.0",
-  "private": true,
+  "name": "collegeProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/app.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "node server/app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgorbatov/collegeProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgorbatov/collegeProject/issues"
+  },
+  "homepage": "https://github.com/dgorbatov/collegeProject#readme",
   "dependencies": {
-    "next": "11.1.2",
-    "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-preset-env": "^6.7.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "sass": "^1.42.1",
-    "tailwindcss": "^2.2.16"
-  },
-  "devDependencies": {
-    "@types/react": "17.0.24",
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2",
-    "typescript": "4.4.3"
+    "express": "^4.17.1"
   }
 }
