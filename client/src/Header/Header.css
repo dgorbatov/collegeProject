@@ -1,0 +1,21 @@
+.header {
+  height: 10vh;
+  width: 100vw;
+  background-color: #E2E6E8;
+  margin: 0px;
+  padding-left: 4vw;
+
+  display: flex;
+  align-items: center;
+}
+
+.header h1 {
+  color: #2B2D42;
+}
+
+.header form {
+  height: 7vh;
+  width: 20vw;
+  background-color: #D5DCE3;
+  margin-left: 4vw;
+}

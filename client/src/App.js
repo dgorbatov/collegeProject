@@ -1,18 +1,11 @@
 import './App.css';
-import { useEffect } from "react";
+import Header from "./Header/Header";
 
 function App() {
 
-  useEffect(() => {
-    fetch("api")
-    .then(res => res.json())
-    .then(console.log);
-    console.log("IN");
-  }, []);
-
   return (
     <div className="App">
-      <p>WElcome To Dans project</p>
+      <Header />
     </div>
   );
 }

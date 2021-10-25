@@ -19,5 +19,8 @@
   "homepage": "https://github.com/dgorbatov/collegeProject#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@iconify/react": "^3.0.1"
   }
 }

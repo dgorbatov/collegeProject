@@ -7,6 +7,10 @@ app.get("/api", (req, res) => {
   res.json({ message: "Hello from server!" });
 });
 
+app.get("/all", (req, res) => {
+
+});
+
 app.use(express.static(path.resolve(__dirname, '../client/build')));
 
 const PORT = process.env.PORT || 8080;
