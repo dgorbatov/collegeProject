@@ -1,21 +1,37 @@
 .header {
-  height: 10vh;
+  height: 7vh;
   width: 100vw;
-  background-color: #E2E6E8;
+  background-color: #a8b9c2;
   margin: 0px;
-  padding-left: 4vw;
+  padding-left: 3vw;
 
   display: flex;
   align-items: center;
 }
 
 .header h1 {
-  color: #2B2D42;
+  color: rgb(51, 58, 88);
+  font-size: 2.3vw;
 }
 
 .header form {
-  height: 7vh;
-  width: 20vw;
+  height: 70%;
+  width: 23vw;
   background-color: #D5DCE3;
-  margin-left: 4vw;
+  margin-left: 2vw;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding-left: 0.6vw;
+}
+
+.header input {
+  height: 4vh;
+  width: 21vw;
+  margin-left: 0.4vw;
+  border: 0px;
+  background-color: #D5DCE3;
 }
